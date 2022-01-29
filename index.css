@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
 }
-.navi{
-    background-image: url(images/#hero-cover.3.png);
+header{
+    background-image: url(images/hero-cover.3.png);
     background-size: cover;
 }
 .navi{
@@ -14,9 +14,7 @@
     font-size: large;
 
 }
-.navi1{
-    margin: 0;
-}
+
 .navi2 ul{
     display: flex;
 }
@@ -33,6 +31,9 @@
 .navi3 button{
     background-color: #1d3183;
     border-radius: 8%;
+}
+.banner p{
+    justify-content: center;
 }
 
 
