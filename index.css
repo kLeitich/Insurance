@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'montserrat';
 }
 header{
     background-image: url(images/hero-cover.3.png);
@@ -34,6 +35,91 @@ header{
 }
 
 
+
+
+.kspb{
+    display: flex;
+}
+.ksps{
+    display: flex;
+}
+
+
+
+
+
+.ind2{
+    display: flex;
+}
+.pimg{
+    display: flex;
+    height: 20px;
+}
+
+
+
+
+
+.partners{
+    display: flex;
+    align-content: center;
+justify-content: space-evenly;
+}
+.partners img{
+    height: 50px;
+}
+
+
+
+
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+
+
+
+
+.price2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+.world{
+    display: flex;
+}
+.book{
+    display: flex;
+}
+
+
+.consult{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
 .end{
     display: flex;
 }
@@ -43,7 +129,7 @@ header{
 }
 
 .end .copyright p{
-    font-family: 'poppins';
+    font-family: 'montserrat';
     font-size: 20px;
 }
 
@@ -65,6 +151,6 @@ header{
 }
 
 .end .myname p{
-    font-family: 'poppins';
+    font-family: 'montserrat';
 }
 
