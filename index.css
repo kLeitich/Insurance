@@ -34,3 +34,39 @@
     background-color: #1d3183;
     border-radius: 8%;
 }
+
+
+.end{
+    display: flex;
+}
+
+.end .copyright{
+    margin: 10px;
+}
+
+.end .copyright p{
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+.end .socialmedia{
+    display: flex;
+    margin-top: 9px;
+    margin-left: 30%;
+}
+
+.end .socialmedia img{
+    width: 30px;
+    padding-left: 15px;
+}
+
+
+.end .myname{
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.end .myname p{
+    font-family: 'poppins';
+}
+
