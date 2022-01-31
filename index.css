@@ -102,125 +102,6 @@ header{
     width: 15%;
     
 }
-@media only screen and (min-width: 300px) and (max-width: 770px){
-    
-body{
-    width: 100%;
-}
-    .header{
-        width: 100%;
-        background: none;
-        background-color: whitesmoke;
-    }
-    .container{
-         display: block;
-         flex-direction: column;
-         justify-content: flex-start;
-         width: 100%;
-         padding-left: 20px;
-         padding-top: 20px;
-         background-color: whitesmoke;
-     }
- .navi h1{
-    text-align: center;
- }
-     .navi{
-         display: block;
-         width: 100%;
-         padding-top: 1px;
-     }
-     .navi1{
-         display: flex;
-         margin-bottom: 10px;
-         width: 100%;
-     }
-     .navi2{
-         padding-top: 10px;
-     }
-     .navi2 li{
-         display: block;
-         padding: 20px ;
-         text-align: center;
-     }
-     .navi2  li {
-         text-decoration: none;
-         color: gray;
-         font-family: 'Montserrat', sans-serif;
-         text-align: center;
-         list-style: none;
-     } 
- .navi3 p{
-     display: none;
- }
-     .navi3 button{
-         display: none;
-     }
- 
-     .btext{
-        margin-top: 10%;
-    }
-    .btext .h1{
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        font-size: 35px;
-        text-align: center;
-        color: white;
-        padding-top: 20%;
-    }
-    .btext .p{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 13px;
-        text-align: center;
-        color: white;
-    }
-    .b1{
-        border: 10px solid  #23A6F0;
-        background-color: #23A6F0;
-        border-radius: 60px;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-    }
-    .b2{
-        border: 1px solid  blue;
-        border-radius: 30px;
-        background-color: transparent;
-        color: blue;
-        padding: 10px;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        margin-left: 20px;
-    }
-    .kspb{
-        display: block;
-        margin-left: 0;
-        margin-right: 10px;
-        justify-content: center;
-        padding-bottom: 30%;
-        padding-top: 15%;
-        margin-top: 5px;
-    }
-    .ksp1,.ksp2{
-        border: 2px solid white;
-        width: 70%;
-        background-color: white;
-        box-shadow: 0px 1px 1px 1px #eeeeee;
-        position: relative;
-        top: 30px;
-        margin-bottom: 20px;
-        margin-left: 8%;    
-    }
-    .ksp3{
-        border: 2px solid #23A6F0;
-        width: 70%;
-        background-color: #23A6F0;
-        box-shadow: 0px 1px 1px 1px #23A6F0;
-        position: relative;
-        top: 40px;
-        margin-left: 8%;   
-    }
-}
 
 /* end of header */
 .ksps{
@@ -432,15 +313,18 @@ justify-content: space-evenly;
 }
 .book{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: white;
     width: 50%;
 
 }
 .book1 img{
-    width: 20%;
+    width: 30%;
+    padding: 0%;
 }
+    
 .book2{
+    padding: 0%;
     font-size: 20px;
 }
 .book2 button{

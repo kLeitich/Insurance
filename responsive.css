@@ -1,0 +1,424 @@
+@media only screen and (max-width:799px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'montserrat';
+    }
+    /* start of header */
+    header{
+        background-image: url(images/hero-cover.3.png);
+        background-size: 100%;
+        height: 100%;
+        background-repeat: repeat-y;
+        opacity: 0.5;
+    
+    }
+    .navi{
+        display: block;
+        font-size: medium;
+    
+    }
+    .navi2 ul{
+        display: block;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .navi2 li{
+        /* display: block;
+        justify-content: center; */
+        margin-right: 20px;
+        list-style: none;
+    }
+
+    .navi3 p{
+        display: none;
+    }
+    .navi3 button{
+        display: none;
+    }
+    .btext{
+        color: white;
+       justify-content: space-around;
+       text-align: center;
+       /* margin-top: 5%; */
+       padding: 10px;
+    }
+    .btext h1{
+        font-weight: 900;
+        padding: 40px;
+        font-size: 30px;
+    }
+    .btext p{
+        font-weight: 900;
+        font-size: 10px;
+        padding: 30px;
+    }
+    .b1,.b2{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .b1{
+     background-color: blue;
+     font-size: 15px;
+     color: white;
+     border-radius: 15px;
+     padding: 15px;
+    }
+    .b2{
+        background-color: transparent;
+        font-size: 15px;
+        color: white;
+        border-radius: 15px;
+        padding: 15px;
+    }
+    .kspb{
+        display: block;
+        padding: 40px;
+        justify-content: space-around;   
+    }
+    .ksp1{
+        background-color: white;
+        width: 35%;
+    }
+    .ksp1 i{
+      font-size: 60px; 
+      color: blue;
+    }
+    .ksp2{
+        background-color: white;
+        width: 35%;
+    }
+    .ksp2 i{
+        font-size: 60px; 
+      color: blue;
+    }
+    .ksp3 i{
+        font-size: 60px; 
+        color: white;
+    }
+    .ksp3{
+        background-color: #23A6F0;
+        width: 35%;
+        
+    }
+    
+    /* end of header */
+    .ksps{
+        display: block;
+        justify-content: space-around;
+        /* margin-left: 50px;
+        padding: 50px;
+        margin: 50px; */
+    }
+    .ksp4,.ksp5,.ksp6{
+        /* justify-content: center;
+        align-items: center; */
+        padding: 20px;
+        width: 80%;
+    }
+    .ksps i{
+        font-size: 60px; 
+        color: blue;
+    }
+    
+    
+    
+    .content{
+        background-color: whitesmoke;
+    }
+    .Industry{
+        background-color: whitesmoke;
+        padding: 50px;
+    }
+    .ind1{
+        justify-content: space-between;
+        text-align: center;
+        font-size: medium;
+    }
+    .ind2 p{
+        width: 40%;
+    }
+    .ind2{
+        display: block;
+        padding: 0px;
+        /* justify-content: space-around; */
+        /* background-color: whitesmoke; */
+    }
+    .ind2 p{
+        display: inline;
+    }
+    .people1{
+        background-color: white;
+        border: black, 1px, solid;
+        padding: 20px;
+        width: 100%;
+    }
+    .people2{
+        background-color: white;
+        border: black, 1px, solid;
+        padding: 20px;
+        width: 100%;
+    }
+    .people3{
+        background-color: white;
+        border: black, 1px, solid;
+        padding: 20px;
+        width: 100%;
+    }
+    .pimg{
+        display: flex;
+        height: 20px;
+    }
+    
+    
+    
+    
+    
+    .partners{
+        background-color: whitesmoke;
+        display: block;
+        flex-direction: column;
+        margin-left: 18%;
+        width: 30%;
+        justify-content: center;
+        
+    
+    }
+    .partners img{
+        
+        margin: 5px auto;
+        height: 50px;
+    }
+    
+    
+    
+    
+    .subscribe{
+        background-color: #23A6F0;
+        display: block;
+        justify-content: space-evenly;
+        align-content: center;
+        height: 80px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    
+    
+    
+    
+    .price{
+        background-color: whitesmoke;
+    }
+    .price1{
+        justify-content: space-between;
+        text-align: center;
+        font-size: medium;
+    }
+    
+    .price2{
+        display: block;
+        justify-content: center;
+        padding: 50px;
+    }
+    .free{
+        background-color: white;
+        border: solid  ;
+        border-color: #23A6F0;
+        border-radius: 10px;
+        list-style-position: inside;
+        /* border-width: 100%; */
+        
+    }
+    .free ul{
+        list-style: url(images/icons8-ok-48.png);
+        list-style-position: inside;
+        align-items: center;
+    }
+    .free button{
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .free h2,p,h1{
+        justify-content: space-between;
+        text-align: center;
+        padding: 20px;
+    
+    }
+    .free h1{
+        color: blue;
+    }
+    .standard{
+        background-color: #252B42;
+        border: solid  ;
+        border-color: #23A6F0;
+        border-radius: 10px;
+        list-style-position: inside;
+        color: white;
+        /* border-width: 100%; */
+        
+    }
+    .standard ul{
+        list-style: url(images/icons8-ok-48.png);
+        list-style-position: inside;
+        align-items: center;
+    }
+    .standard button{
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .standard h2,p,h1{
+        justify-content: space-between;
+        text-align: center;
+        padding: 20px;
+    }
+    .standard h1{
+        color: blue;
+    }
+    .Premium{
+        background-color: white;
+        border: solid  ;
+        border-color: #23A6F0;
+        border-radius: 10px;
+        list-style-position: inside;
+       
+    }
+    .Premium ul{
+        list-style: url(images/icons8-ok-48.png);
+        list-style-position: inside;
+        align-items: center;
+    }
+    .Premium button{
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .Premium h2,p,h1{
+        justify-content: space-between;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .Premium h1{
+        color: blue;
+    }
+    
+    
+    
+    
+    
+    .branch{
+        Background-Color: #252B42;
+    }
+    
+    .world{
+        display: block;
+        color:white;
+    }
+    .book{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        width: 50%;
+    
+    }
+    .book1 img{
+        width: 100%;
+        padding: 0%;
+    }
+        
+    .book2{
+        padding: 0%;
+        font-size: 20px;
+    }
+    .book2 button{
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    
+    .consult{
+        background-color: white;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .consult{
+        padding: 20px;
+    }
+    .cbutton button{
+        background-color: blue;
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        
+    }
+    
+    
+    footer{
+        display: block;
+        justify-content: space-evenly;
+        text-decoration: none;
+    }
+    footer ul{
+        list-style: none;
+        
+    }
+    footer li a{
+        text-decoration: none;
+    }
+    
+    
+    
+    /* start of part End */
+    
+    .end{
+        background-color: whitesmoke;
+        display: block;
+        align-content: flex-start;
+        width: auto;
+    }
+    
+    .end .copyright{
+        margin: 10px;
+    }
+    
+    .end .copyright p{
+        font-family: 'montserrat';
+        font-size: 20px;
+    }
+    
+    .end .socialmedia{
+        display: block;
+        margin-top: 9px;
+        margin-left: 30%;
+    }
+    
+    .end .socialmedia img{
+        width: 30px;
+        padding-left: 15px;
+    }
+    
+    
+    .end .myname{
+        margin-left: 10%;
+        margin-top: 5px;
+    }
+    
+    .end .myname p{
+        font-family: 'montserrat';
+    }
+    
+    /* End of part End */
+}
