@@ -323,7 +323,7 @@
         color:white;
     }
     .book{
-        display: flex;
+        display: block;
         justify-content: space-around;
         background-color: white;
         width: 50%;
